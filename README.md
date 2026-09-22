@@ -4,8 +4,6 @@
 
 El cliente es lo que se ejecuta en el navegador del usuario, como HTML, CSS y JavaScript. En cambio, el servidor recibe las peticiones, ejecuta PHP, consulta la base de datos si es necesario y devuelve el resultado al navegador.
 
-La regla de "nunca confiar en los datos del cliente" se debe a que el usuario puede modificar los datos que envía. Por eso, aunque hagamos validaciones con JavaScript, las comprobaciones importantes también deben hacerse en el servidor.
-
 
 
 ## 2. Web Estática vs. Dinámica
@@ -17,6 +15,7 @@ Para una tienda online necesitamos una web dinámica, ya que tenemos que gestion
 
 
 ## 3. La Infraestructura
+
 
 Un servidor web como Apache o Nginx se encarga de recibir las peticiones de los usuarios y devolver los recursos necesarios. Si la petición necesita ejecutar PHP, puede enviarla a PHP-FPM.
 
